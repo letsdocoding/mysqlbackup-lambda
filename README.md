@@ -27,3 +27,7 @@ Following diagram illustrates the High Level Design of solution.
 1. Use Secrets manager to store credentials
 2. Iterate database to get all databases and dump all.
 3. Use multiple source to trigger database backups.
+
+## Contributions Welcome
+
+Please feel free to fork / raise PR for any feedback / changes.
