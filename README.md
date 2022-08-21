@@ -1,10 +1,10 @@
 # mysqlbackup-lambda
 
-_tldr;_ Highly Scalable AWS Lambda self managed and simple solution  to backup mysql database to S3
+_tldr;_ Highly Scalable AWS Lambda self managed and simple solution to backup mysql database to S3
 
 ## Repo Pull:
 
-Although, incase working with Lambda, you would need to publish this to Private ECR, in case needed, latest can be pulled from: [public.ecr.aws/letsdocoding/mysqlbackup-lambda:latest](public.ecr.aws/letsdocoding/mysqlbackup-lambda:latest).
+Although, incase working with Lambda, **you would need to publish this to Private ECR**, in case needed, latest can be pulled from: [public.ecr.aws/letsdocoding/mysqlbackup-lambda:latest](public.ecr.aws/letsdocoding/mysqlbackup-lambda:latest).
 
 ## High Level Overview
 
