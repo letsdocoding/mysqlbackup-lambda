@@ -9,7 +9,7 @@ Although, incase working with Lambda, you would need to publish this to Private 
 ## High Level Overview
 
 Following diagram illustrates the High Level Design of solution.
-![Image](/images/lambda-mysql-architecture.jpg "Solution Architecture")
+![Image](/images/lambda-mysql-arch.jpg "Solution Architecture")
 
 ## Setup
 
