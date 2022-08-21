@@ -6,6 +6,11 @@ _tldr;_ AWS Lambda to backup mysql database to S3
 
 Although, incase working with Lambda, you would need to publish this to Private ECR, in case needed, latest can be pulled from: [public.ecr.aws/letsdocoding/mysqlbackup-lambda:latest](public.ecr.aws/letsdocoding/mysqlbackup-lambda:latest).
 
+## High Level Overview
+
+Following diagram illustrates the High Level Design of solution.
+![Image](/images/lambda-mysql-arch.jpg "Solution Architecture")
+
 ## Setup
 
 1. Publish to your private ECR Repo
@@ -16,3 +21,9 @@ Although, incase working with Lambda, you would need to publish this to Private 
    4. `DB_USER` : Defines the database user
    5. `DB_PASS` : Defines the database password
 3. Configure the triggers and good to go
+
+## Further probable optimizations
+
+1. Use Secrets manager to store credentials
+2. Iterate database to get all databases and dump all.
+3. Use multiple source to trigger database backups.
