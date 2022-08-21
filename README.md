@@ -1,6 +1,6 @@
 # mysqlbackup-lambda
 
-_tldr;_ AWS Lambda to backup mysql database to S3
+_tldr;_ Highly Scalable AWS Lambda self managed and simple solution  to backup mysql database to S3
 
 ## Repo Pull:
 
