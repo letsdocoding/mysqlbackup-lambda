@@ -22,6 +22,9 @@ Following diagram illustrates the High Level Design of solution.
    5. `DB_PASS` : Defines the database password
 3. Configure the triggers and good to go
 
+## Full Vide
+[![Full Detailed Video](https://img.youtube.com/vi/kR4U6LR47z0/0.jpg)](https://www.youtube.com/watch?v=kR4U6LR47z0)
+
 ## Further probable optimizations
 
 1. Use Secrets manager to store credentials
